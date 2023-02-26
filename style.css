@@ -237,6 +237,84 @@ li {
 
 }
 
+/*          Apps Section               */
+
+.apps {
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin: 40px 20px;
+
+}
+
+
+#app-icon {
+
+    width: 80px;
+    height: 80px;
+}
+
+.apps h1 {
+
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+.apps h1 {
+
+    text-shadow: 2px 2px 4px crimson;
+}
+
+.app-image-main {
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin: 40px 20px;
+
+}
+
+#cssapp1 {
+    width: 40vw;
+    height: 440px;
+    border:5px crimson solid;
+    border-radius: 20px;
+}
+
+.moreapps {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    width: 40vw;
+    margin:0;
+
+}
+
+#cssapp2 {
+
+    width: 40vw;
+    height:220px;
+    border:5px crimson solid;
+    border-radius: 20px;
+
+}
+
+#cssapp3 {
+
+    width: 40vw;
+    height: 220px;
+    border:5px crimson solid;
+    border-radius: 20px;
+}
+
+
 @media screen and (min-width: 1060px) {
 
     #header {
@@ -295,4 +373,49 @@ li {
        height: 400px;
        border-radius: 0px;
     }
+
+    #cssapp1 {
+        width: 30vw;
+        height: 600px;
+        border:5px crimson solid;
+        border-radius: 20px;
+    }
+    
+    #cssapp2 {
+    
+        width: 30vw;
+        height:300px;
+        border:5px crimson solid;
+        border-radius: 20px;
+    
+    }
+    
+    #cssapp3 {
+    
+        width: 30vw;
+        height: 300px;
+        border:5px crimson solid;
+        border-radius: 20px;
+    }
+
+    #app-icon {
+
+        width: 300px;
+        height: 300px;
+    }
+    
+    .apps h1 {
+    
+        font-size: 80px;
+        margin: 0;
+        padding: 0;
+    
+        
+    }
+    
+    .apps h1 {
+    
+        text-shadow: 2px 2px 4px crimson;
+    }
+
 }
