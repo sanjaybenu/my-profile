@@ -31,8 +31,6 @@ The footer section of the app has links to my social media github profiles. Clin
 
 ![Footer Screenshot](https://user-images.githubusercontent.com/105487471/222293638-05175057-8b9a-4944-ba45-3b020e72b4fc.jpg)
 
-Provide instructions and examples for use. Include screenshots as needed.
-
 ## Credits
 
 I would like to thank my instructor Jack Song  and TA Siddharth Baral of Monash Bootcamp for teaching basic concepts of HTML and CSS that has helped me to make this website.
