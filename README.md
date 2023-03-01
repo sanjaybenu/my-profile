@@ -17,8 +17,7 @@ The links are provided to visit my applications website to view the working webs
 ## Usage
 
 On the home page there are links provided to scroll down to the corresponding sections.
-
-Add screenshot
+![Home Screenshot](https://user-images.githubusercontent.com/105487471/222293269-ba5b4b18-9afb-4371-bd3d-6e730d04bc46.jpg)
 
 Apps sections provides the link to visit the applications to view the working websites. Click on the picture of each project and it will take you to the live app.
 
