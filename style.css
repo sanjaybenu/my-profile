@@ -13,7 +13,7 @@ body {
 
 }
 
-/*       Main Page    */   
+/*              Main Page  Syling              */   
 
 #header {
 
@@ -200,7 +200,7 @@ li {
 
 }
 
-/*          Apps Section               */
+/*          Apps Section Styling              */
 
 .apps {
 
@@ -284,7 +284,7 @@ li {
     border-radius: 20px;
 }
 
-/*              Contact Me                  */
+/*              Contact Me Section Styling                 */
 
 .contact {
 
@@ -328,7 +328,7 @@ textarea {
     height: 150px;
     margin: 10px 40px 10px 0;
 }
-/*           Form Styling           */
+/*                 Form Styling                 */
 
 form {
     display: flex;
@@ -375,7 +375,7 @@ form {
 
    
 
-/*           Footer Styling         */
+/*                  Footer Styling               */
 .footer {
 
     height: 60px;
@@ -402,24 +402,7 @@ form {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*       Media Query      */
+/*         Media Query Section Styling          */
 
 @media screen and (min-width: 500px) {
 
@@ -457,7 +440,7 @@ form {
 
     #header {
 
-        background-size: 60%;
+        background-size: 50%;
         
     }
 
@@ -506,6 +489,7 @@ form {
        width: 300px;
        height: 400px;
        border-radius: 0px;
+
     }
 
     #cssapp1 {
@@ -513,6 +497,7 @@ form {
         height: 600px;
         border:5px crimson solid;
         border-radius: 20px;
+
     }
     
     #cssapp2 {
@@ -521,6 +506,7 @@ form {
         height:300px;
         border:5px crimson solid;
         border-radius: 20px;
+
     
     }
     
@@ -530,12 +516,14 @@ form {
         height: 300px;
         border:5px crimson solid;
         border-radius: 20px;
+
     }
 
     #app-icon {
 
         width: 300px;
         height: 300px;
+
     }
     
     .apps h1 {
@@ -543,13 +531,13 @@ form {
         font-size: 80px;
         margin: 0;
         padding: 0;
-    
         
     }
     
     .apps h1 {
     
         text-shadow: 2px 2px 4px crimson;
+
     }
 
     form {
@@ -559,6 +547,13 @@ form {
   
       label, input, textarea, button {
         max-width: 750px;
+
+      }
+
+      .contact h2 {
+
+        font-size: 80px;
+
       }
     }
 
