@@ -21,12 +21,13 @@ On the home page there are links provided to scroll down to the corresponding se
 
 Apps sections provides the link to visit the applications to view the working websites. Click on the picture of each project and it will take you to the live app.
 
-Add screenshot
+![Apps Screenshot](https://user-images.githubusercontent.com/105487471/222293470-854ea34e-3f32-49ac-8bec-b5fdfd47f67b.jpg)
 
 Contact me section has a form. The details can be filled up and your message along with your Name and Email will be sent to me with your message.
 
-![Apps Screenshot](https://user-images.githubusercontent.com/105487471/222293470-854ea34e-3f32-49ac-8bec-b5fdfd47f67b.jpg)
+![Form Screenshot](https://user-images.githubusercontent.com/105487471/222293622-36b3a3b7-921a-4a84-8238-9c6facafd412.jpg)
 
+![Footer Screenshot](https://user-images.githubusercontent.com/105487471/222293638-05175057-8b9a-4944-ba45-3b020e72b4fc.jpg)
 The footer section of the app has links to my social media github profiles. Clinking on an icon will take you to the corresponding profile.
 
 Add screen shot
