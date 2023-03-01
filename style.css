@@ -37,7 +37,7 @@ body {
 .navbar h1 {
 
     color: white;
-    font-size: 80px;
+    font-size: 65px;
     padding-left: 10px;
 }
 
@@ -203,40 +203,6 @@ li {
 
 }
 
-
-
-/*       Media Query      */
-
-@media screen and (min-width: 500px) {
-
-    #header {
-
-        background-size: 80%;
-    }
-    
-    
-
-    .navbar-links li {
-
-        display: inline-block;
-    }
-
-    .about-me h2 {
-
-        font-size: 45px;
-        
-    }
-    
-    .about-me img {
-    
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-    
-    }
-
-}
-
 /*          Apps Section               */
 
 .apps {
@@ -280,6 +246,12 @@ li {
 
 }
 
+.apps-heading {
+
+    text-align: center;
+    padding: 20px;
+}
+
 #cssapp1 {
     width: 40vw;
     height: 440px;
@@ -291,7 +263,8 @@ li {
 
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;    
+    justify-content: space-between;
+    align-items: center;    
     width: 40vw;
     margin:0;
 
@@ -313,6 +286,174 @@ li {
     border:5px crimson solid;
     border-radius: 20px;
 }
+
+/*              Contact Me                  */
+
+.contact {
+
+    margin: 20px;
+    padding: 40px;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px crimson;
+    text-align: center;
+}
+
+.contact h2 {
+
+    font-size: 30px;
+}
+
+.form {
+
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+label {
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+input{
+
+    width: 100%;
+    margin: 10px 10px 10px 0;
+}
+
+textarea {
+
+    width: 80%;
+    height: 150px;
+    margin: 10px 40px 10px 0;
+}
+/*           Form Styling           */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    margin: 30px auto;
+    background-color: crimson;
+
+  }
+   
+  label, input, textarea, button {
+    width: 100%;
+    max-width: 90%;
+    margin: 20px;
+    font-size: 20px;
+    font=weight: 600;
+    color: #fff;
+  }
+   
+  input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  }
+   
+  button {
+    padding: 10px;
+    background-color: #0077FF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+  }
+   
+  button:hover {
+    background-color: #005FE6;
+
+  }
+
+   
+
+/*           Footer Styling         */
+.footer {
+
+    height: 60px;
+    margin-top: 40px;
+    background-color: crimson;
+}
+
+.icons {
+
+    text-align: center;
+
+}
+
+.fa-brands {
+
+    padding: 10px;
+    color: #fff;
+}
+
+.footer h5 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*       Media Query      */
+
+@media screen and (min-width: 500px) {
+
+    #header {
+
+        background-size: 80%;
+    }
+    
+    
+
+    .navbar-links li {
+
+        display: inline-block;
+    }
+
+    .about-me h2 {
+
+        font-size: 45px;
+        
+    }
+    
+    .about-me img {
+    
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    
+    }
+
+}
+
 
 
 @media screen and (min-width: 1060px) {
@@ -356,10 +497,6 @@ li {
 
     }
 
-    .box {
-
-        
-    }
 
     .about-me h2 {
 
@@ -418,4 +555,13 @@ li {
         text-shadow: 2px 2px 4px crimson;
     }
 
-}
+    form {
+
+        max-width: 900px;
+      }
+  
+      label, input, textarea, button {
+        max-width: 750px;
+      }
+    }
+
