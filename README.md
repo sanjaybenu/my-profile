@@ -27,10 +27,9 @@ Contact me section has a form. The details can be filled up and your message alo
 
 ![Form Screenshot](https://user-images.githubusercontent.com/105487471/222293622-36b3a3b7-921a-4a84-8238-9c6facafd412.jpg)
 
-![Footer Screenshot](https://user-images.githubusercontent.com/105487471/222293638-05175057-8b9a-4944-ba45-3b020e72b4fc.jpg)
 The footer section of the app has links to my social media github profiles. Clinking on an icon will take you to the corresponding profile.
 
-Add screen shot
+![Footer Screenshot](https://user-images.githubusercontent.com/105487471/222293638-05175057-8b9a-4944-ba45-3b020e72b4fc.jpg)
 
 Provide instructions and examples for use. Include screenshots as needed.
 
