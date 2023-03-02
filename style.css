@@ -321,6 +321,7 @@ input {
 
     width: 100%;
     margin: 10px 10px 10px 0;
+    color: #000;
 }
 
 textarea {
@@ -328,6 +329,7 @@ textarea {
     width: 80%;
     height: 150px;
     margin: 10px 40px 10px 0;
+    color: #000;
 }
 
 /*                 Form Styling                 */
@@ -339,31 +341,33 @@ form {
     max-width: 90%;
     margin: 30px auto;
     background-color: crimson;
-
-}
-
-label,
-input,
-textarea,
-button {
+  }
+   
+  label, input, textarea, button {
     width: 100%;
     max-width: 90%;
     margin: 20px;
     font-size: 20px;
-    font=weight: 600;
-    color: #fff;
-}
+    font-weight: 300;
+    color: #000
+      ;
+  }
 
-input,
-textarea {
+  label {
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+  }
+   
+  input, textarea {
     padding: 10px;
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-
-}
-
-button {
+  }
+   
+  button {
     padding: 10px;
     background-color: #0077FF;
     color: #fff;
@@ -371,15 +375,11 @@ button {
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-
-}
-
-button:hover {
+  }
+   
+  button:hover {
     background-color: #005FE6;
-
-}
-
-
+  }
 
 /*                  Footer Styling               */
 .footer {
