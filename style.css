@@ -404,7 +404,7 @@ form {
 
 /*         Media Query Section Styling          */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 579px) {
 
     #header {
 
@@ -436,7 +436,7 @@ form {
 
 
 
-@media screen and (min-width: 1060px) {
+@media screen and (min-width: 900px) {
 
     #header {
 
