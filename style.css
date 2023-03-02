@@ -13,7 +13,7 @@ body {
 
 }
 
-/*              Main Page  Syling              */   
+/*              Main Page  Syling              */
 
 #header {
 
@@ -52,7 +52,6 @@ span {
     list-style: none;
     padding: 10px;
     font-weight: 600px
-
 }
 
 .navbar-links li {
@@ -92,13 +91,14 @@ h1 {
     padding-left: 20px;
     font-size: 30px;
 }
+
 /*         About Me             */
 .about-me {
 
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     margin: 40px 20px;
 }
 
@@ -132,7 +132,7 @@ header {
 .header p {
     font-size: 24px;
     padding: 50px;
-    color:#fff;
+    color: #fff;
 
 
 }
@@ -151,7 +151,7 @@ header {
     padding: 10px;
     text-align: center;
     border: 1px #f0f0f0 dotted;
-    border-radius:10px;
+    border-radius: 10px;
 
 }
 
@@ -163,10 +163,11 @@ header {
     position: relative;
     margin-top: -25px;
     margin-bottom: 10px;
-    background-color: #080808;;
-    text-align:center;
-    padding:10px;
-    font-size:20px;
+    background-color: #080808;
+    ;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
 
 }
 
@@ -174,7 +175,7 @@ header {
 
     padding: 8px;
     color: crimson;
-    text-align:center;
+    text-align: center;
 
 
 
@@ -184,14 +185,14 @@ header {
 
     background-color: crimson;
     text-align: center;
-    color:#fff;
+    color: #fff;
     padding: 10px;
     padding-left: 20px;
-    border: 1px lightgrey ;
+    border: 1px lightgrey;
     border-radius: 4px;
     margin-top: 25px;
     list-style: none;
-    
+
 }
 
 li {
@@ -205,9 +206,9 @@ li {
 .apps {
 
     display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 40px 20px;
 
 }
@@ -225,7 +226,7 @@ li {
     margin: 0;
     padding: 0;
 
-    
+
 }
 
 .apps h1 {
@@ -236,9 +237,9 @@ li {
 .app-image-main {
 
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     margin: 40px 20px;
 
 }
@@ -252,26 +253,26 @@ li {
 #cssapp1 {
     width: 40vw;
     height: 440px;
-    border:5px crimson solid;
+    border: 5px crimson solid;
     border-radius: 20px;
 }
 
 .moreapps {
 
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     width: 40vw;
-    margin:0;
+    margin: 0;
 
 }
 
 #cssapp2 {
 
     width: 40vw;
-    height:220px;
-    border:5px crimson solid;
+    height: 220px;
+    border: 5px crimson solid;
     border-radius: 20px;
 
 }
@@ -280,7 +281,7 @@ li {
 
     width: 40vw;
     height: 220px;
-    border:5px crimson solid;
+    border: 5px crimson solid;
     border-radius: 20px;
 }
 
@@ -316,7 +317,7 @@ label {
     font-weight: 300;
 }
 
-input{
+input {
 
     width: 100%;
     margin: 10px 10px 10px 0;
@@ -328,6 +329,7 @@ textarea {
     height: 150px;
     margin: 10px 40px 10px 0;
 }
+
 /*                 Form Styling                 */
 
 form {
@@ -338,26 +340,30 @@ form {
     margin: 30px auto;
     background-color: crimson;
 
-  }
-   
-  label, input, textarea, button {
+}
+
+label,
+input,
+textarea,
+button {
     width: 100%;
     max-width: 90%;
     margin: 20px;
     font-size: 20px;
     font=weight: 600;
     color: #fff;
-  }
-   
-  input, textarea {
+}
+
+input,
+textarea {
     padding: 10px;
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 
-  }
-   
-  button {
+}
+
+button {
     padding: 10px;
     background-color: #0077FF;
     color: #fff;
@@ -366,14 +372,14 @@ form {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 
-  }
-   
-  button:hover {
+}
+
+button:hover {
     background-color: #005FE6;
 
-  }
+}
 
-   
+
 
 /*                  Footer Styling               */
 .footer {
@@ -410,8 +416,8 @@ form {
 
         background-size: 80%;
     }
-    
-    
+
+
 
     .navbar-links li {
 
@@ -421,15 +427,15 @@ form {
     .about-me h2 {
 
         font-size: 45px;
-        
+
     }
-    
+
     .about-me img {
-    
+
         height: 100px;
         width: 100px;
         border-radius: 50%;
-    
+
     }
 
 }
@@ -441,13 +447,12 @@ form {
     #header {
 
         background-size: 50%;
-        
+
     }
 
     .navbar h1 {
 
         font-size: 120px
-
     }
 
     .navbar ul {
@@ -486,35 +491,35 @@ form {
 
     .about-me img {
 
-       width: 300px;
-       height: 400px;
-       border-radius: 0px;
+        width: 300px;
+        height: 400px;
+        border-radius: 0px;
 
     }
 
     #cssapp1 {
         width: 30vw;
         height: 600px;
-        border:5px crimson solid;
+        border: 5px crimson solid;
         border-radius: 20px;
 
     }
-    
+
     #cssapp2 {
-    
-        width: 30vw;
-        height:300px;
-        border:5px crimson solid;
-        border-radius: 20px;
 
-    
-    }
-    
-    #cssapp3 {
-    
         width: 30vw;
         height: 300px;
-        border:5px crimson solid;
+        border: 5px crimson solid;
+        border-radius: 20px;
+
+
+    }
+
+    #cssapp3 {
+
+        width: 30vw;
+        height: 300px;
+        border: 5px crimson solid;
         border-radius: 20px;
 
     }
@@ -525,17 +530,17 @@ form {
         height: 300px;
 
     }
-    
+
     .apps h1 {
-    
+
         font-size: 80px;
         margin: 0;
         padding: 0;
-        
+
     }
-    
+
     .apps h1 {
-    
+
         text-shadow: 2px 2px 4px crimson;
 
     }
@@ -543,17 +548,19 @@ form {
     form {
 
         max-width: 900px;
-      }
-  
-      label, input, textarea, button {
+    }
+
+    label,
+    input,
+    textarea,
+    button {
         max-width: 750px;
 
-      }
+    }
 
-      .contact h2 {
+    .contact h2 {
 
         font-size: 80px;
 
-      }
     }
-
+}
