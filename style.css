@@ -268,9 +268,9 @@ li {
 
 }
 
-#cssapp2 {
+#cssapp2, #cssapp4 {
 
-    width: 40vw;
+    max-width: 40vw;
     height: 220px;
     border: 5px crimson solid;
     border-radius: 20px;
@@ -508,7 +508,7 @@ button:hover {
 
     }
 
-    #cssapp2 {
+    #cssapp2,#cssapp4 {
 
         width: 30vw;
         height: 300px;
