@@ -527,6 +527,15 @@ button:hover {
 
     }
 
+    #cssapp5 {
+
+        width: 30vw;
+        height: 300px;
+        border: 5px crimson solid;
+        border-radius: 20px;
+
+    }
+
     #app-icon {
 
         width: 300px;
